@@ -1,5 +1,5 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+url: https://your-domain.vercel.app
+baseurl: /
 
 # Site settings
 title: Mikail BAYRAKTAR
@@ -54,3 +54,32 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Exclude files from production build
+exclude:
+  - node_modules
+  - vendor
+  - .bundle
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - .git
+  - .gitignore
+  - .jekyll-cache
+  - .vercelignore
+  - vercel.json
+  - .ruby-version
+
+# Include hidden files
+include:
+  - .htaccess
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# GitHub Pages compatibility
+github:
+  is_project_page: false

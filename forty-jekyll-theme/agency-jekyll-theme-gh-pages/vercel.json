@@ -1,0 +1,10 @@
+{
+  "buildCommand": "gem install bundler && bundle install && bundle exec jekyll build",
+  "outputDirectory": "_site",
+  "cleanUrls": true,
+  "framework": "jekyll",
+  "env": {
+    "JEKYLL_ENV": "production"
+  },
+  "crons": []
+}
