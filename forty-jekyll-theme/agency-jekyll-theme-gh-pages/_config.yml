@@ -1,5 +1,5 @@
 url: https://portofolio-jekyll-vn3s.vercel.app
-baseurl: /
+baseurl: ""
 
 # Site settings
 title: Mikail BAYRAKTAR
@@ -60,10 +60,14 @@ exclude:
   - node_modules
   - vendor
   - .bundle
+  - _site
   - Gemfile
   - Gemfile.lock
   - README.md
   - LICENSE
+  - build.sh
+  - mail
+  - js/contact_me.js
   - .git
   - .gitignore
   - .jekyll-cache
